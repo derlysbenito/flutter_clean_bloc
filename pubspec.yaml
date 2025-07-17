@@ -1,0 +1,35 @@
+name: clean_architecture_bloc_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Bloc para manejar el estado
+  flutter_bloc: ^8.1.5
+
+  # Cliente HTTP
+  dio: ^5.4.3
+
+  # Base de datos local
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Programacion funcional
+  dartz: ^0.10.1
+
+  # Inyeccion de dependencias
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
